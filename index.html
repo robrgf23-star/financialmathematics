@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mat143 matematica financiera</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de interes Financiero</h1>
+
+  <label for="capital">Capital inicial:</label>
+  <input type="number" id="capital" placeholder="Ej: 1000"><br><br>
+
+  <label for="tasa">Tasa de interés (%):</label>
+  <input type="number" id="tasa" placeholder="Ej: 5"><br><br>
+
+  <label for="tiempo">Tiempo (años):</label>
+  <input type="number" id="tiempo" placeholder="Ej: 2"><br><br>
+
+  <button onclick="calcularInteresSimple()">Interés Simple</button>
+  <button onclick="calcularInteresCompuesto()">Interés Compuesto</button>
+
+  <h2>Resultado:</h2>
+  <p id="resultado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
